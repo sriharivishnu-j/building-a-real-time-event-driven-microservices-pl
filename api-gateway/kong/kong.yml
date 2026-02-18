@@ -1,0 +1,7 @@
+services:
+- name: example-service
+  url: http://spring-boot:8080
+  routes:
+  - name: example-route
+    paths:
+    - /api/
